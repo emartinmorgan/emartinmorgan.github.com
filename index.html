@@ -34,6 +34,7 @@
   ga('send', 'pageview');
 
 </script>
+
   </head>
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-collapse">
@@ -140,7 +141,7 @@
                         <p class="skills">Specialties</p>Data Analysis<br>EHR<br>Data Management<br><p></p>
                           <p class="skills">Skills</p>Clinical Research<br>Manuscript Prep<br>Psychology<br><p></p>
                           <p class="skills">Languages</p>Stata<br>R<br>SQL<br>REDCap<br><p></p>
-                          <p class="skills"><a href="https://github.com/emartinmorgan/profile/em_resume2021.pdf" target="_blank"><span class="color_3">PRINT RESUME</span></a></p>
+                          <p class="skills"><a href="https://github.com/emartinmorgan/profile/blob/master/em_resume2021.pdf" target="_blank"><span class="color_3">PRINT RESUME</span></a></p>
                     </div>
                     </div>
                   </div> <!-- End Work -->
@@ -283,6 +284,33 @@
           </div>
         </div>
 
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>$(".contentContainer").css("min-height", $(window).height());</script>
+
+
+   <!-- jQuery (necessary for scroll-up plugins) starts here-->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script>
+
+                    $(function () {
+                        $.scrollUp({
+                            animation: 'fade',
+                            activeOverlay: '#FFFFFF',
+                            scrollImg: {
+                                active: true,
+                                type: 'background',
+                                src: 'images/top.png'
+                            }
+                        });
+                    });
+                    $('#scrollUpTheme').attr('href', 'css/image.css');
+                    $('.image-switch').addClass('active');
+
+    </script>
+    <!-- jQuery (necessary for scroll-up plugins) ends here -->
 
 
     <!-- Scrolling Nav JavaScript -->
